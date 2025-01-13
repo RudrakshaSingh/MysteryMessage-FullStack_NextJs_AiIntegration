@@ -1,2 +1,0 @@
-ZOD library 
-for schemas
