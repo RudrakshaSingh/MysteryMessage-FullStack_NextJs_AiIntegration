@@ -24,3 +24,5 @@ updating an existing but unverified user account with a new password and verific
         //Create a new user with provided details
         //save the new user'
     END IF
+
+# 4. react email
