@@ -57,7 +57,7 @@ const UserSchema: Schema<User> = new mongoose.Schema({
   messages: [MessageSchema],
 });
 
-//agar banwa ho || agar nhi banawa ho making first time
+//agar banwa ho with type model || agar nhi banawa ho making first time
 const UserModel = (mongoose.models.User as mongoose.Model<User>) || mongoose.model<User>("User", UserSchema);
 
 export default UserModel;
