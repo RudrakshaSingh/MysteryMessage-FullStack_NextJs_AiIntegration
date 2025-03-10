@@ -163,3 +163,14 @@ make a context auth provided to make sessionProvider and wrap childern'
 and wrap AuthProvider to body
 
 page.tsx signin button and get data if login
+
+### nextauth frontend -(auth)= for groupimg will not count in route
+sign-in - with page.tsx
+use client - need to put
+
+"use client" directive is used to specify that a React component should be rendered on the client side rather than the server.
+
+Why Use "use client" in Next.js?
+By default, components in Next.js 13+ are server components, meaning they are rendered on the server and sent as HTML to the client. If you want a component to be interactive (i.e., use state, effects, event handlers, or browser-specific APIs), you must mark it explicitly as a client component using "use client".
+
+### context folder
